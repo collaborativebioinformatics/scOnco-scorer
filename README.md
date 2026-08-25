@@ -32,6 +32,5 @@ Malignant-cell calling and clone structure vs the SEQC2 genome-wide DNA truth, s
 - Arijita Sarkar (arijita88) — single-cell analysis: data loading, QC, building the mixtures, running callers
 - Fangfei Guo (PhoebeGuo97) — benchmarking: scoring callers vs DNA truth
 - Kate Newcomer (k8newcomer) — per-cell malignancy probability method
-- Abrar Abir (Abrar-Abir) — compute and git setup
 - Phuc Nguyen (Mustardburger) — fusion stretch: linking clones to actionable gene fusions
 - Mahrukh Saddiquee (mahrukhsaddiqui8-creator) — write-up and figures
