@@ -1,0 +1,17 @@
+# Large expression data
+*.rdata
+*.RData
+*.rds
+
+# Container images
+*.tar
+*.tar.gz
+
+# Caller output directories
+results/
+
+# Temporary/log noise
+*.out
+*.err
+.Rhistory
+.RData
