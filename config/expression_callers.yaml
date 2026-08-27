@@ -1,0 +1,75 @@
+project:
+  name: Group9_2026
+  genome: GRCh38
+  expression_input: /data/expression/gene_counts_all.rdata
+
+samples:
+  LLU:
+    tumor: 10X_LLU_A_cellranger3.1
+    normal: 10X_LLU_B_cellranger3.1
+    normal_split_seed: 20260826
+    normal_reference_fraction: 0.5
+  NCI:
+    tumor: 10X_NCI_A_cellranger3.1
+    normal: 10X_NCI_B_cellranger3.1
+
+mixtures:
+  tumor_fractions:
+    - 0.01
+    - 0.05
+    - 0.10
+    - 0.20
+    - 0.40
+    - 0.80
+  total_cells: 3000
+  replicates: 10
+  current_status:
+    LLU_p80_r01: feasible_without_replacement
+    lower_fractions: awaiting_team_lead_guidance
+
+copykat:
+  image: sconco-copykat:1.0
+  status: blocked_package_missing
+  id_type: E
+  genome: hg20
+  cell_line: "no"
+  normal_reference: held_out_B_cells
+  required_outputs:
+    - predictions
+    - full_CNA_matrix
+    - continuous_score
+    - full_result_object
+
+infercnv:
+  image: trinityctat/infercnv:latest
+  version: 1.19.1
+  status: blocked_missing_GRCh38_gene_order_file
+  reference_based: true
+  reference_free: true
+  normal_reference: held_out_B_cells
+  required_outputs:
+    - reference_based_CNV
+    - reference_free_CNV
+    - continuous_score
+
+scevan:
+  image: anthonyphis/r_scevan:latest
+  version: 1.0.3
+  status: blocked_missing_pinned_wrapper
+  function: pipelineCNA
+  normal_argument: norm_cell
+  normal_reference: held_out_B_cells
+  required_outputs:
+    - classDf
+    - CNA_matrix
+    - continuous_score
+
+scoring:
+  excluded_from_primary_tumor_score:
+    - chr6p
+    - chr16q
+    - chrX
+  report_separately_as_false_positive_check:
+    - chr6p
+    - chr16q
+    - chrX
