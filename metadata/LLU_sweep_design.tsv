@@ -1,0 +1,7 @@
+tumor_fraction	tumor_cells	normal_cells
+0.01	10	990
+0.05	50	950
+0.1	100	900
+0.2	200	800
+0.4	400	600
+0.8	800	200
