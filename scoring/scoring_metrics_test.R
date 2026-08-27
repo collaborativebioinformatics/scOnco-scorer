@@ -9,7 +9,7 @@
 # Usage:  Rscript 04_validate_metrics.R      (exits non-zero on failure)
 # =============================================================================
 
-source("03_metrics.R")
+source("scoring_metrics.R")
 
 set.seed(20260826)
 N <- 5000
