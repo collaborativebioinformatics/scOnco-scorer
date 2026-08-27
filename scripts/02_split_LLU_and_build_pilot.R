@@ -106,6 +106,7 @@ pilot_manifest <- rbind(
   data.frame(
     dataset_id = "LLU_p80_r01",
     cell_id = tumor_sel,
+    original_barcode = sub("^LLU_A__", "", tumor_sel),
     source = "LLU_A",
     truth = "tumor",
     tumor_fraction = 0.80,
@@ -114,6 +115,7 @@ pilot_manifest <- rbind(
   data.frame(
     dataset_id = "LLU_p80_r01",
     cell_id = normal_sel,
+    original_barcode = sub("^LLU_B__", "", normal_sel),
     source = "LLU_B",
     truth = "normal",
     tumor_fraction = 0.80,
