@@ -176,7 +176,7 @@ Rscript scripts/scoring_metrics.R
 Rscript scripts/make_purity_performance_figure.R
 ```
 
-Precomputed benchmark tables are under [`results/`](results/); the numbers in this README and the deck are read directly from them.
+Precomputed benchmark tables are under [`results/`](results/); the numbers in this README.
 
 ---
 
