@@ -210,7 +210,7 @@ Precomputed benchmark tables are under [`results/`](results/); the numbers in th
 
 ## Acknowledgements
 
-Built at the **BCM Structural Variant Hackathon 2026**, hosted by Baylor College of Medicine and Rice University, 25 to 28 August 2026. We thank the organizers, mentors, and collaborators for the environment and support that made this work possible.
+Built at the **BCM Structural Variant Hackathon 2026**, hosted by Baylor College of Medicine, 25 to 28 August 2026. We thank the organizers, mentors, and collaborators for the environment and support that made this work possible.
 
 We acknowledge the SEQC2 and FDA teams for the HCC1395/HCC1395BL reference and its DNA truth, and the authors of inferCNV, CopyKAT, SCEVAN, and Numbat for the tools this benchmark evaluates. Naming a resource identifies its provenance and does not imply endorsement of this prototype's results. Derived outputs here are research artifacts with explicit methods and limitations, not clinical evidence.
 
