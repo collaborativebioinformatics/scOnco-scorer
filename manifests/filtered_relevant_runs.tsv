@@ -1,0 +1,9 @@
+run_accession	sample_title	library_name	instrument_platform	library_strategy	read_count	fastq_ftp
+SRR9134444	HCC1395 BL	10X_NCI_M_B	ILLUMINA	RNA-Seq	314215817	ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/004/SRR9134444/SRR9134444_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/004/SRR9134444/SRR9134444_2.fastq.gz
+SRR9134578	HCC1395 BL with 10% HCC1395 Spikein	10X_LLU_10%A_Spikein_B_Seq3	ILLUMINA	RNA-Seq	262657438	ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/008/SRR9134578/SRR9134578_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/008/SRR9134578/SRR9134578_2.fastq.gz
+SRR9134726	HCC1395 BL	10X_LLU_B_Seq1	ILLUMINA	RNA-Seq	134624084	ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/006/SRR9134726/SRR9134726_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/006/SRR9134726/SRR9134726_2.fastq.gz
+SRR9134548	HCC1395 BL with 5% HCC1395 Spikein	10X_NCI_5%A_Spikein_B	ILLUMINA	RNA-Seq	624074719	ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/008/SRR9134548/SRR9134548_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/008/SRR9134548/SRR9134548_2.fastq.gz
+SRR9134550	HCC1395 BL	10X_NCI_B	ILLUMINA	RNA-Seq	505898977	ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/000/SRR9134550/SRR9134550_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/000/SRR9134550/SRR9134550_2.fastq.gz
+SRR9134555	HCC1395 BL	10X_LLU_B_Seq3	ILLUMINA	RNA-Seq	59535691	ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/005/SRR9134555/SRR9134555_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/005/SRR9134555/SRR9134555_2.fastq.gz
+SRR9134575	HCC1395 BL with 10% HCC1395 Spikein	10X_LLU_10%A_Spikein_B_Seq2	ILLUMINA	RNA-Seq	288957279	ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/005/SRR9134575/SRR9134575_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/005/SRR9134575/SRR9134575_2.fastq.gz
+SRR9134717	HCC1395 BL with 5% HCC1395 Spikein	10X_NCI_M_5%A_Spikein_B	ILLUMINA	RNA-Seq	372331878	ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/007/SRR9134717/SRR9134717_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR913/007/SRR9134717/SRR9134717_2.fastq.gz
