@@ -1,0 +1,22 @@
+caller	site	platform	fraction	replicate	metric	estimate	lower	upper	n_cells	n_source_cells	ci_method	n_boot	seed	preliminary	note	figure
+copykat	LLU	10x	0	NA	barcode_match_rate	1	NA	NA	1000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0	NA	false_aneuploid_rate	0.0332294911734164	NA	NA	1000	1000	none	NA	NA	FALSE	B-vs-B: p00, all-normal mixture; 1 replicates pooled (1-1); 1.0 rows per source cell; 	benchmark_controls
+copykat	LLU	10x	0	NA	reference_misclass_rate	0.0373831775700935	NA	NA	428	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 1 replicates pooled	benchmark_controls
+copykat	LLU	10x	0.01	NA	auroc	0.51187321536731	0.487377644721815	0.537746089274423	9625	1066	cluster_bootstrap	500	6002	FALSE	label shuffle control	benchmark_controls
+copykat	LLU	10x	0.01	NA	barcode_match_rate	1	NA	NA	10000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0.01	NA	reference_misclass_rate	0.0691588785046729	NA	NA	4280	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 10 replicates pooled	benchmark_controls
+copykat	LLU	10x	0.05	NA	auroc	0.499680971109009	0.494299936250789	0.505316172580195	9623	1447	cluster_bootstrap	500	6003	FALSE	label shuffle control	benchmark_controls
+copykat	LLU	10x	0.05	NA	barcode_match_rate	1	NA	NA	10000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0.05	NA	reference_misclass_rate	0	NA	NA	4280	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 10 replicates pooled	benchmark_controls
+copykat	LLU	10x	0.1	NA	auroc	0.497628694799863	0.489994651364449	0.505402134865383	9618	1931	cluster_bootstrap	500	6004	FALSE	label shuffle control	benchmark_controls
+copykat	LLU	10x	0.1	NA	barcode_match_rate	1	NA	NA	10000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0.1	NA	reference_misclass_rate	0	NA	NA	4280	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 10 replicates pooled	benchmark_controls
+copykat	LLU	10x	0.2	NA	auroc	0.500628761205608	0.488945338874853	0.512933466544434	9638	2906	cluster_bootstrap	500	6005	FALSE	label shuffle control	benchmark_controls
+copykat	LLU	10x	0.2	NA	barcode_match_rate	1	NA	NA	10000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0.2	NA	reference_misclass_rate	0	NA	NA	4280	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 10 replicates pooled	benchmark_controls
+copykat	LLU	10x	0.4	NA	auroc	0.502507170554216	0.481942252856691	0.520519422344829	9644	3191	cluster_bootstrap	500	6006	FALSE	label shuffle control	benchmark_controls
+copykat	LLU	10x	0.4	NA	barcode_match_rate	1	NA	NA	10000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0.4	NA	reference_misclass_rate	0	NA	NA	4280	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 10 replicates pooled	benchmark_controls
+copykat	LLU	10x	0.8	NA	auroc	0.498107144433106	0.482835577689258	0.515140305261152	9675	3663	cluster_bootstrap	500	6007	FALSE	label shuffle control	benchmark_controls
+copykat	LLU	10x	0.8	NA	barcode_match_rate	1	NA	NA	10000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0.8	NA	reference_misclass_rate	0.0233644859813084	NA	NA	4280	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 10 replicates pooled	benchmark_controls

@@ -1,0 +1,298 @@
+caller	site	platform	fraction	replicate	metric	estimate	lower	upper	n_cells	n_source_cells	ci_method	n_boot	seed	preliminary	note	figure
+copykat	LLU	10x	0	1	precision	0	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0	1	specificity	0.966770508826584	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0	NA	barcode_match_rate	1	NA	NA	1000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0	NA	false_aneuploid_rate	0.0332294911734164	NA	NA	1000	1000	none	NA	NA	FALSE	B-vs-B: p00, all-normal mixture; 1 replicates pooled (1-1); 1.0 rows per source cell; 	benchmark_controls
+copykat	LLU	10x	0	NA	frac_aneuploid	0.0332294911734164	0.0218068535825545	0.0446521287642783	1000	1000	cluster_bootstrap	2000	1001	FALSE	1 replicates pooled (1-1); 1.0 rows per source cell; 	none
+copykat	LLU	10x	0	NA	frac_filtered	0.037	NA	NA	1000	1000	none	NA	NA	FALSE	1 replicates pooled (1-1); 1.0 rows per source cell; 	none
+copykat	LLU	10x	0	NA	precision	0	0	0	1000	1000	cluster_bootstrap	2000	1001	FALSE	1 replicates pooled (1-1); 1.0 rows per source cell; 	none
+copykat	LLU	10x	0	NA	reference_misclass_rate	0.0373831775700935	NA	NA	428	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 1 replicates pooled	benchmark_controls
+copykat	LLU	10x	0	NA	specificity	0.966770508826584	0.955347871235722	0.978193146417445	1000	1000	cluster_bootstrap	2000	1001	FALSE	1 replicates pooled (1-1); 1.0 rows per source cell; 	none
+copykat	LLU	10x	0.01	1	f1	0.0303030303030303	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	1	precision	0.0178571428571429	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	1	sensitivity	0.1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	1	specificity	0.942226890756303	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	2	precision	0	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	2	sensitivity	0	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	2	specificity	0.961175236096537	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	3	f1	0.0727272727272727	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	3	precision	0.0444444444444444	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	3	sensitivity	0.2	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	3	specificity	0.954831932773109	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	4	precision	0	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	4	sensitivity	0	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	4	specificity	0.909947643979058	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	5	precision	0	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	5	sensitivity	0	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	5	specificity	0.869884575026233	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	6	f1	0.120805369127517	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	6	precision	0.0642857142857143	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	6	sensitivity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	6	specificity	0.862394957983193	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	7	precision	0	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	7	sensitivity	0	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	7	specificity	0.877229800629591	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	8	f1	0.0476190476190476	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	8	precision	0.03125	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	8	sensitivity	0.1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	8	specificity	0.967436974789916	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	9	precision	0	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	9	sensitivity	0	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	9	specificity	0.962264150943396	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	10	precision	0	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	10	sensitivity	0	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	10	specificity	0.96953781512605	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.01	NA	auroc	0.51187321536731	0.487377644721815	0.537746089274423	9625	1066	cluster_bootstrap	500	6002	FALSE	label shuffle control	benchmark_controls
+copykat	LLU	10x	0.01	NA	barcode_match_rate	1	NA	NA	10000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0.01	NA	f1	0.032540675844806	NA	NA	10000	1107	none	NA	NA	FALSE	10 replicates pooled (1-10); 9.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.01	NA	frac_aneuploid	0.0729350649350649	0.0607659630065853	0.0855981727530061	10000	1107	cluster_bootstrap	2000	1002	FALSE	10 replicates pooled (1-10); 9.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.01	NA	frac_filtered	0.0375	NA	NA	10000	1107	none	NA	NA	FALSE	10 replicates pooled (1-10); 9.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.01	NA	precision	0.0185185185185185	0.00954785697275364	0.0292320644216691	10000	1107	cluster_bootstrap	2000	1002	FALSE	10 replicates pooled (1-10); 9.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.01	NA	reference_misclass_rate	0.0691588785046729	NA	NA	4280	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 10 replicates pooled	benchmark_controls
+copykat	LLU	10x	0.01	NA	sensitivity	0.134020618556701	0.0721649484536082	0.206185567010309	10000	1107	cluster_bootstrap	2000	1002	FALSE	10 replicates pooled (1-10); 9.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.01	NA	specificity	0.927686817800168	0.914994541397898	0.939919418312187	10000	1107	cluster_bootstrap	2000	1002	FALSE	10 replicates pooled (1-10); 9.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.05	1	f1	0.978260869565217	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	1	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	1	sensitivity	0.957446808510638	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	1	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	2	f1	0.946236559139785	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	2	precision	0.956521739130435	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	2	sensitivity	0.936170212765957	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	2	specificity	0.99781181619256	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	3	f1	0.98989898989899	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	3	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	3	sensitivity	0.98	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	3	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	4	f1	0.957446808510638	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	4	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	4	sensitivity	0.918367346938776	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	4	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	5	f1	0.96551724137931	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	5	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	5	sensitivity	0.933333333333333	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	5	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	6	f1	0.96969696969697	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	6	precision	0.96	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	6	sensitivity	0.979591836734694	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	6	specificity	0.997809419496167	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	7	f1	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	7	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	7	sensitivity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	7	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	8	f1	0.931818181818182	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	8	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	8	sensitivity	0.872340425531915	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	8	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	9	f1	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	9	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	9	sensitivity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	9	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	10	f1	0.921348314606742	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	10	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	10	sensitivity	0.854166666666667	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	10	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.05	NA	auroc	0.499680971109009	0.494299936250789	0.505316172580195	9623	1447	cluster_bootstrap	500	6003	FALSE	label shuffle control	benchmark_controls
+copykat	LLU	10x	0.05	NA	barcode_match_rate	1	NA	NA	10000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0.05	NA	f1	0.966773847802787	NA	NA	10000	1507	none	NA	NA	FALSE	10 replicates pooled (1-10); 6.6 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.05	NA	frac_aneuploid	0.0472825522186428	0.0460865368631386	0.0484526763168688	10000	1507	cluster_bootstrap	2000	1003	FALSE	10 replicates pooled (1-10); 6.6 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.05	NA	frac_filtered	0.0377	NA	NA	10000	1507	none	NA	NA	FALSE	10 replicates pooled (1-10); 6.6 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.05	NA	precision	0.991208791208791	0.978118161925602	1	10000	1507	cluster_bootstrap	2000	1003	FALSE	10 replicates pooled (1-10); 6.6 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.05	NA	reference_misclass_rate	0	NA	NA	4280	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 10 replicates pooled	benchmark_controls
+copykat	LLU	10x	0.05	NA	sensitivity	0.943514644351464	0.922594142259414	0.96234309623431	10000	1507	cluster_bootstrap	2000	1003	FALSE	10 replicates pooled (1-10); 6.6 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.05	NA	specificity	0.999562602515036	0.99890362898805	1	10000	1507	cluster_bootstrap	2000	1003	FALSE	10 replicates pooled (1-10); 6.6 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.1	1	f1	0.891428571428571	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	1	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	1	sensitivity	0.804123711340206	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	1	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	2	f1	0.950819672131147	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	2	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	2	sensitivity	0.90625	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	2	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	3	f1	0.939226519337017	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	3	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	3	sensitivity	0.885416666666667	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	3	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	4	f1	0.957894736842105	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	4	precision	0.978494623655914	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	4	sensitivity	0.938144329896907	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	4	specificity	0.997690531177829	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	5	f1	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	5	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	5	sensitivity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	5	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	6	f1	0.939226519337017	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	6	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	6	sensitivity	0.885416666666667	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	6	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	7	f1	0.956989247311828	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	7	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	7	sensitivity	0.917525773195876	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	7	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	8	f1	0.962162162162162	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	8	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	8	sensitivity	0.927083333333333	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	8	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	9	f1	0.910112359550562	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	9	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	9	sensitivity	0.835051546391753	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	9	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	10	f1	0.950276243093923	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	10	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	10	sensitivity	0.905263157894737	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	10	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.1	NA	auroc	0.497628694799863	0.489994651364449	0.505402134865383	9618	1931	cluster_bootstrap	500	6004	FALSE	label shuffle control	benchmark_controls
+copykat	LLU	10x	0.1	NA	barcode_match_rate	1	NA	NA	10000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0.1	NA	f1	0.946448087431694	NA	NA	10000	2007	none	NA	NA	FALSE	10 replicates pooled (1-10); 5.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.1	NA	frac_aneuploid	0.0902474526928675	0.0881741957537504	0.0921765552611381	10000	2007	cluster_bootstrap	2000	1004	FALSE	10 replicates pooled (1-10); 5.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.1	NA	frac_filtered	0.0382	NA	NA	10000	2007	none	NA	NA	FALSE	10 replicates pooled (1-10); 5.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.1	NA	precision	0.997695852534562	0.994232987312572	1	10000	2007	cluster_bootstrap	2000	1004	FALSE	10 replicates pooled (1-10); 5.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.1	NA	reference_misclass_rate	0	NA	NA	4280	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 10 replicates pooled	benchmark_controls
+copykat	LLU	10x	0.1	NA	sensitivity	0.9002079002079	0.88045738045738	0.918918918918919	10000	2007	cluster_bootstrap	2000	1004	FALSE	10 replicates pooled (1-10); 5.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.1	NA	specificity	0.999768946395564	0.999421694549873	1	10000	2007	cluster_bootstrap	2000	1004	FALSE	10 replicates pooled (1-10); 5.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.2	1	f1	0.925207756232687	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	1	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	1	sensitivity	0.860824742268041	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	1	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	2	f1	0.954907161803713	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	2	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	2	sensitivity	0.913705583756345	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	2	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	3	f1	0.956989247311828	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	3	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	3	sensitivity	0.917525773195876	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	3	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	4	f1	0.942779291553134	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	4	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	4	sensitivity	0.891752577319588	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	4	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	5	f1	0.935211267605634	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	5	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	5	sensitivity	0.878306878306878	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	5	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	6	f1	0.959785522788204	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	6	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	6	sensitivity	0.922680412371134	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	6	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	7	f1	0.961538461538461	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	7	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	7	sensitivity	0.925925925925926	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	7	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	8	f1	0.994791666666667	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	8	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	8	sensitivity	0.989637305699482	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	8	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	9	f1	0.968586387434555	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	9	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	9	sensitivity	0.939086294416244	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	9	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	10	f1	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	10	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	10	sensitivity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	10	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.2	NA	auroc	0.500628761205608	0.488945338874853	0.512933466544434	9638	2906	cluster_bootstrap	500	6005	FALSE	label shuffle control	benchmark_controls
+copykat	LLU	10x	0.2	NA	barcode_match_rate	1	NA	NA	10000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0.2	NA	f1	0.960558089616313	NA	NA	10000	3007	none	NA	NA	FALSE	10 replicates pooled (1-10); 3.3 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.2	NA	frac_aneuploid	0.185723179082797	0.182856247070317	0.18855013697734	10000	3007	cluster_bootstrap	2000	1005	FALSE	10 replicates pooled (1-10); 3.3 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.2	NA	frac_filtered	0.0362	NA	NA	10000	3007	none	NA	NA	FALSE	10 replicates pooled (1-10); 3.3 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.2	NA	precision	1	1	1	10000	3007	cluster_bootstrap	2000	1005	FALSE	10 replicates pooled (1-10); 3.3 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.2	NA	reference_misclass_rate	0	NA	NA	4280	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 10 replicates pooled	benchmark_controls
+copykat	LLU	10x	0.2	NA	sensitivity	0.924109447599381	0.91223541559112	0.935983479607641	10000	3007	cluster_bootstrap	2000	1005	FALSE	10 replicates pooled (1-10); 3.3 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.2	NA	specificity	1	1	1	10000	3007	cluster_bootstrap	2000	1005	FALSE	10 replicates pooled (1-10); 3.3 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.4	1	f1	0.963060686015831	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	1	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	1	sensitivity	0.928753180661578	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	1	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	2	f1	0.947651006711409	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	2	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	2	sensitivity	0.900510204081633	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	2	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	3	f1	0.942465753424657	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	3	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	3	sensitivity	0.89119170984456	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	3	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	4	f1	0.945908460471567	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	4	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	4	sensitivity	0.897368421052632	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	4	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	5	f1	0.950600801068091	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	5	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	5	sensitivity	0.905852417302799	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	5	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	6	f1	0.9527665317139	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	6	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	6	sensitivity	0.90979381443299	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	6	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	7	f1	0.96514745308311	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	7	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	7	sensitivity	0.932642487046632	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	7	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	8	f1	0.934065934065934	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	8	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	8	sensitivity	0.876288659793814	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	8	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	9	f1	0.955345060893099	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	9	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	9	sensitivity	0.914507772020725	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	9	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	10	f1	0.976127320954907	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	10	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	10	sensitivity	0.953367875647668	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	10	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.4	NA	auroc	0.502507170554216	0.481942252856691	0.520519422344829	9644	3191	cluster_bootstrap	500	6006	FALSE	label shuffle control	benchmark_controls
+copykat	LLU	10x	0.4	NA	barcode_match_rate	1	NA	NA	10000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0.4	NA	f1	0.953447577924707	NA	NA	10000	3299	none	NA	NA	FALSE	10 replicates pooled (1-10); 3.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.4	NA	frac_aneuploid	0.366341766901701	0.358559429795208	0.373654165087056	10000	3299	cluster_bootstrap	2000	1006	FALSE	10 replicates pooled (1-10); 3.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.4	NA	frac_filtered	0.0356	NA	NA	10000	3299	none	NA	NA	FALSE	10 replicates pooled (1-10); 3.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.4	NA	precision	1	1	1	10000	3299	cluster_bootstrap	2000	1006	FALSE	10 replicates pooled (1-10); 3.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.4	NA	reference_misclass_rate	0	NA	NA	4280	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 10 replicates pooled	benchmark_controls
+copykat	LLU	10x	0.4	NA	sensitivity	0.91103661681279	0.898463725768321	0.923585864778428	10000	3299	cluster_bootstrap	2000	1006	FALSE	10 replicates pooled (1-10); 3.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.4	NA	specificity	1	1	1	10000	3299	cluster_bootstrap	2000	1006	FALSE	10 replicates pooled (1-10); 3.0 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.8	1	f1	0.993606138107417	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	1	precision	0.987293519695044	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	1	sensitivity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	1	specificity	0.947916666666667	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	2	f1	0.995527156549521	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	2	precision	0.991094147582697	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	2	sensitivity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	2	specificity	0.963541666666667	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	3	f1	0.958389261744967	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	3	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	3	sensitivity	0.920103092783505	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	3	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	4	f1	0.935418082936778	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	4	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	4	sensitivity	0.878671775223499	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	4	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	5	f1	0.994811932555123	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	5	precision	0.989677419354839	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	5	sensitivity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	5	specificity	0.958549222797927	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	6	f1	0.994845360824742	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	6	precision	0.98974358974359	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	6	sensitivity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	6	specificity	0.959183673469388	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	7	f1	0.997442455242967	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	7	precision	0.994897959183674	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	7	sensitivity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	7	specificity	0.979057591623037	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	8	f1	0.99609375	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	8	precision	0.993506493506494	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	8	sensitivity	0.998694516971279	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	8	specificity	0.974489795918367	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	9	f1	0.996801023672425	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	9	precision	0.993622448979592	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	9	sensitivity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	9	specificity	0.974093264248705	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	10	f1	0.961616161616162	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	10	precision	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	10	sensitivity	0.926070038910506	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	10	specificity	1	NA	NA	1000	1000	none	NA	NA	FALSE	per-replicate value; not pooled	none
+copykat	LLU	10x	0.8	NA	auroc	0.498107144433106	0.482835577689258	0.515140305261152	9675	3663	cluster_bootstrap	500	6007	FALSE	label shuffle control	benchmark_controls
+copykat	LLU	10x	0.8	NA	barcode_match_rate	1	NA	NA	10000	NA	none	NA	NA	FALSE	predictions.tsv ships joined to truth; checks for dropped cells	benchmark_controls
+copykat	LLU	10x	0.8	NA	f1	0.982911557526742	NA	NA	10000	3786	none	NA	NA	FALSE	10 replicates pooled (1-10); 2.6 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.8	NA	frac_aneuploid	0.783669250645995	0.776612663508138	0.790445628266061	10000	3786	cluster_bootstrap	2000	1007	FALSE	10 replicates pooled (1-10); 2.6 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.8	NA	frac_filtered	0.0325	NA	NA	10000	3786	none	NA	NA	FALSE	10 replicates pooled (1-10); 2.6 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.8	NA	precision	0.993801107887101	0.991230366492147	0.996115230299767	10000	3786	cluster_bootstrap	2000	1007	FALSE	10 replicates pooled (1-10); 2.6 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.8	NA	reference_misclass_rate	0.0233644859813084	NA	NA	4280	NA	none	NA	NA	FALSE	held-out reference-B called aneuploid, 10 replicates pooled	benchmark_controls
+copykat	LLU	10x	0.8	NA	sensitivity	0.972258064516129	0.967874069982542	0.976472231335292	10000	3786	cluster_bootstrap	2000	1007	FALSE	10 replicates pooled (1-10); 2.6 rows per source cell; 	purity_performance
+copykat	LLU	10x	0.8	NA	specificity	0.975584415584416	0.96568346069749	0.984736842105263	10000	3786	cluster_bootstrap	2000	1007	FALSE	10 replicates pooled (1-10); 2.6 rows per source cell; 	purity_performance
