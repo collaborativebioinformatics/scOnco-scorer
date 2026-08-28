@@ -5,12 +5,11 @@
 <p><strong>How faint can a cancer signal get before we lose it? A purity-resolved benchmark of single-cell cancer-cell detection on an FDA reference.</strong></p>
 
 <p>
-  <a href="#what-we-found"><img alt="Per-cell AUROC" src="https://img.shields.io/badge/PER--CELL%20AUROC-%E2%89%A5%200.99-B02621?style=for-the-badge"></a>
-  <a href="slides/Results_Group_9.pdf"><img alt="Slide deck" src="https://img.shields.io/badge/RESULTS-SLIDE%20DECK-2E2E2E?style=for-the-badge"></a>
-  <a href="METHODS.md"><img alt="Methods" src="https://img.shields.io/badge/READ-METHODS-2F5C96?style=for-the-badge"></a>
-  <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA504037"><img alt="Data" src="https://img.shields.io/badge/DATA-NCBI%20PRJNA504037-0F766E?style=for-the-badge"></a>
-  <a href="https://fritzsedlazeck.github.io/blog/2026/hackathon-2026/"><img alt="Hackathon" src="https://img.shields.io/badge/BUILT%20AT-BCM%20%2B%20RICE%20SV%20HACKATHON%202026-154734?style=for-the-badge"></a>
-  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/LICENSE-MIT-444444?style=for-the-badge"></a>
+  <a href="#what-we-found"><img alt="Per-cell AUROC" src="https://img.shields.io/badge/PER--CELL%20AUROC%20%E2%89%A5%200.99-B02621?style=for-the-badge"></a>
+  <a href="slides/Results_Group_9.pdf"><img alt="Slide deck" src="https://img.shields.io/badge/Slide%20deck-2E2E2E?style=for-the-badge"></a>
+  <a href="METHODS.md"><img alt="Methods" src="https://img.shields.io/badge/Methods-2E2E2E?style=for-the-badge"></a>
+  <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA504037"><img alt="Data" src="https://img.shields.io/badge/Data-2E2E2E?style=for-the-badge"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/MIT-2E2E2E?style=for-the-badge"></a>
 </p>
 
 <p>Give three tumour-detection tools the same cells, dial the amount of cancer from most to almost none, and measure the point where each one starts to fail, how honestly it reports its own confidence, and whether it recovers the real genomic scars of the tumour.</p>
