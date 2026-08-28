@@ -27,7 +27,7 @@
 
 ---
 
-## The one-minute version
+## Overview
 
 A tumour sample is a crowd. Most of what you sequence is normal tissue; the cancer cells hide among them, and in a real biopsy they can be a small minority. If a tool is going to call a single cell malignant, two questions matter more than anything: **does it still work when cancer cells are rare**, and **does it know when it is unsure**.
 
