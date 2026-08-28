@@ -195,12 +195,12 @@ Precomputed benchmark tables are under [`results/`](results/); the numbers in th
 
 | Member | Focus |
 | :--- | :--- |
-| **Ilaha Huseynli** · Lead | Method, clinical framing, data and compute setup |
-| Arijita Sarkar | Single-cell analysis: loading, QC, mixture construction, running callers |
-| Fangfei Guo | Benchmarking: scoring callers against DNA truth |
-| Kate Newcomer | Per-cell malignancy probability and calibration |
-| Phuc Nguyen | Fusion stretch: linking clones to actionable gene fusions |
-| Mahrukh Saddiquee | Write-up and figures |
+| **Ilaha Huseynli** · Lead | Method, clinical framing, data and compute setup, Write-up, figures, and slides |
+| Arijita Sarkar | Single-cell analysis: loading, QC, mixture construction, running callers, Write-up and figures |
+| Fangfei Guo | Benchmarking: scoring callers against DNA truth, Write-up and figures |
+| Kate Newcomer | Per-cell malignancy probability and calibration, Write-up and figures |
+| Phuc Nguyen | Fusion stretch: linking clones to actionable gene fusions, Write-up and figures |
+| Mahrukh Saddiquee | Write-up |
 
 ---
 
