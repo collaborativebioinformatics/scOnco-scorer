@@ -22,15 +22,24 @@
 
 </div>
 
-<div align="center">
-
-[Overview](#overview) · [What it answers](#what-the-benchmark-answers) · [How it fits together](#how-it-fits-together) · [What we found](#what-we-found) · [At a glance](#results-at-a-glance) · [Why trust it](#why-you-can-trust-these-numbers) · [Slides](#the-slide-deck) · [Reproduce](#reproduce-it) · [Data](#data-truth-and-reading) · [Team](#team)
-
-</div>
 
 > [!IMPORTANT]
 > The results below come from the **in-silico purity series**, where every cell's true identity is known by construction, scored against the **SEQC2 DNA truth**. Two things are deliberately kept apart: the **10x** and **Fluidigm C1** arms use different cells and are never merged, and per-cell **calibration** is judged against known cell identity while **genomic fidelity** is judged against the DNA copy-number truth. Assigning identity in the **real 5% and 10% physical mixtures**, and packaging the pipeline in Nextflow, are in progress.
 
+<details>
+<summary><strong>Contents</strong></summary>
+
+- [Overview](#overview)
+- [What the benchmark answers](#what-the-benchmark-answers)
+- [How it fits together](#how-it-fits-together)
+- [What we found](#what-we-found)
+- [Results at a glance](#results-at-a-glance)
+- [Why you can trust these numbers](#why-you-can-trust-these-numbers)
+- [The slide deck](#the-slide-deck)
+- [Reproduce it](#reproduce-it)
+- [Data, truth, and reading](#data-truth-and-reading)
+- [Team](#team)
+</details>
 ---
 
 ## Overview
