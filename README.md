@@ -2,7 +2,7 @@
 
 <h1>scOnco-scorer</h1>
 
-<p><strong>How faint can a cancer signal get before we lose it? A purity-resolved benchmark of single-cell cancer-cell detection on an FDA reference.</strong></p>
+<p><strong>How faint can a cancer signal get before we lose it? A purity-resolved benchmark of single-cell cancer-cell detection on an FDA reference..</strong></p>
 
 <p>
   <a href="#what-we-found"><img alt="Per-cell AUROC" src="https://img.shields.io/badge/PER--CELL%20AUROC-%E2%89%A5%200.99-B02621?style=for-the-badge"></a>
